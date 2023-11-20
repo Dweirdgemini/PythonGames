@@ -14,10 +14,13 @@ while True:
         if 2 <= players <= 4:
            break
         else: 
-            print("Must be between 2 -  4 players ")
-
+            print("Must be between 2 -  4 players")
     else:
         print("Invalid, try again")
 
-1
+
+max_score = 50
+players_scores = [0 for _ in range(players)]
+
+
 print(players)
